@@ -1,0 +1,22 @@
+.statIndicator {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: table;
+  width: 100%;
+}
+
+.statIndicatorRow {
+  display: table-row;
+}
+
+.statIndicatorCell {
+  display: table-cell;
+}
+
+.statIndicatorRow > .statIndicatorCell:first-child {
+  width: 50px;
+}
+
+.classStatIndicator {
+  margin-left: auto;
+}

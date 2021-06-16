@@ -1,0 +1,32 @@
+.skillIndicator {
+  display: flex;
+  width: 100%;
+}
+
+.skillIndicatorCell {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  flex: 1 0 0;
+  margin-right: 0.5em;
+}
+
+.skillIndicatorCell:last-child {
+  margin-right: 0;
+}
+
+.skillIndicatorCell > .turn {
+  width: 100%;
+}
+
+.skillIndicatorCell > .turn > :global(.p-button) {
+  width: 100%;
+}
+
+.skillIndicatorCell > .skill {
+  text-align: center;
+}
+
+.skillIndicatorCell > .skill:last-child {
+  margin-bottom: auto;
+}

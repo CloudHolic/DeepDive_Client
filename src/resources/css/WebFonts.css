@@ -1,0 +1,44 @@
+/* 기본 UI, IBM Plex Sans KR */
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 캐릭터 이름 시안 1, 한불 정부표준 타자기체 */
+@font-face {
+  font-family: 'KoreanFrenchTypewriter';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/KoreanFrenchTypewriter.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 캐릭터 이름 시안 2, 양진체 */
+@font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 캐릭터 이름 시안 3, 빛의계승자체 Bold */
+@font-face {
+  font-family: 'HeirofLightBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 캐릭터 이름 시안 4, 빛의계승자체 Bold */
+@font-face {
+  font-family: 'NIXGONM-Vb';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

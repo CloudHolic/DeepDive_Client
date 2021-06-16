@@ -1,0 +1,163 @@
+.skillCard {
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  height: 300px;
+  max-height: 300px;
+  min-height: 300px;
+  font-size: 0.9rem;
+  border: 1px solid #bcbcbc;
+}
+
+.skillCard.small {
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px;
+}
+
+.skillCard > :global(.p-card-body) {
+  padding: 0;
+}
+
+.skillCard > :global(.p-card-body) > :global(.p-card-content) {
+  padding: 0;
+}
+
+.skillCard .skillName {
+  height: 35px;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 1.2rem;
+}
+
+.skillCard .skillInfoTable {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillCard .skillInfoTable > div:nth-child(1) {
+  padding-left: 0.5rem;
+  width: 30%;
+}
+
+.skillCard .skillInfoTable > div:nth-child(2) {
+  width: 60%;
+  flex: 1 0 0;
+}
+
+.skillDetail {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.tooltipData {
+  cursor: help;
+}
+
+/* class 별 design */
+
+.skillCard.defender {
+  background-color: #000121;
+}
+
+.skillCard.defender .skillName {
+  border-bottom: 3px solid #1976d2;
+}
+
+.skillCard.defender .skillInfoTable {
+  border-bottom: 1px solid #303151;
+}
+
+.skillCard.defender .tooltipData {
+  color: #1976d2;
+}
+
+.tooltip.defender > :global(.p-tooltip-arrow) {
+  border-bottom-color: #101131 !important;
+}
+
+.tooltip.defender > :global(.p-tooltip-text) {
+  background-color: #101131;
+  font-size: 0.9rem;
+}
+
+.skillCard.melee {
+  background-color: #1f0000;
+}
+
+.skillCard.melee .skillName {
+  border-bottom: 3px solid #b71c1c;
+}
+
+.skillCard.melee .skillInfoTable {
+  border-bottom: 1px solid #4f3030;
+}
+
+.skillCard.melee .tooltipData {
+  color: #b71c1c;
+}
+
+.tooltip.melee > :global(.p-tooltip-arrow) {
+  border-bottom-color: #2f1010 !important;
+}
+
+.tooltip.melee > :global(.p-tooltip-text) {
+  background-color: #2f1010;
+  font-size: 0.9rem;
+}
+
+.skillCard.gunner {
+  background-color: #3c2100;
+}
+
+.skillCard.gunner .skillName {
+  border-bottom: 3px solid #f57f17;
+}
+
+.skillCard.gunner .skillInfoTable {
+  border-bottom: 1px solid #6c5130;
+}
+
+.skillCard.gunner .tooltipData {
+  color: #f57f17;
+}
+
+.tooltip.gunner > :global(.p-tooltip-arrow) {
+  border-bottom-color: #4c3110 !important;
+}
+
+.tooltip.gunner > :global(.p-tooltip-text) {
+  background-color: #4c3110;
+  font-size: 0.9rem;
+}
+
+.skillCard.spellcaster {
+  background-color: #22003e;
+}
+
+.skillCard.spellcaster .skillName {
+  border-bottom: 3px solid #7b1fa2;
+}
+
+.skillCard.spellcaster .skillInfoTable {
+  border-bottom: 1px solid #52306e;
+}
+
+.skillCard.spellcaster .tooltipData {
+  color: #7b1fa2;
+}
+
+.tooltip.spellcaster > :global(.p-tooltip-arrow) {
+  border-bottom-color: #32104e !important;
+}
+
+.tooltip.spellcaster > :global(.p-tooltip-text) {
+  background-color: #32104e;
+  font-size: 0.9rem;
+}

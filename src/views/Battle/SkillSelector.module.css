@@ -1,0 +1,22 @@
+.skillSelector {
+  background-color: #313131;
+  width: 100%;
+}
+
+.skillSelector > :global(.p-card-body) > :global(.p-card-content) > div {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+}
+
+.skillSelector > :global(.p-card-body) > :global(.p-card-content) > div > div {
+  margin-right: 0.5em;
+}
+
+.skillSelector
+  > :global(.p-card-body)
+  > :global(.p-card-content)
+  > div
+  > div:last-child {
+  margin-right: 0;
+}

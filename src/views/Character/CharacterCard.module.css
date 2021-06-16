@@ -1,0 +1,57 @@
+.characterCard {
+  width: 800px;
+  height: 400px;
+  background-color: #424242;
+}
+
+.characterNameAndInfo {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.characterName {
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+}
+
+.characterName > span:first-child {
+  font-family: 'NIXGONM-Vb';
+  font-size: 16pt;
+  margin: auto;
+}
+
+.characterName > span:last-child {
+  font-family: 'NIXGONM-Vb';
+  font-size: 11pt;
+  margin: auto;
+}
+
+.characterImage {
+  height: 10%;
+  flex: 1 0 0;
+  flex-grow: 1;
+  display: flex;
+}
+
+.characterImage > img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.characterStat {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #bdbdbd;
+  padding-left: 0.5em;
+}
+
+.statIndicatorWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  flex: 1 0 0;
+}

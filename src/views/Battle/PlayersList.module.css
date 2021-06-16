@@ -1,0 +1,93 @@
+.playersList {
+  background-color: #424242;
+}
+
+.playerIndicator {
+  width: 100%;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.playersList .playerIndicator:last-child {
+  margin-bottom: 0;
+}
+
+.playerIndicator > .playerRow {
+  height: 1.25em;
+  display: flex;
+  flex-direction: row;
+}
+
+.playerIndicator > .playerRow > .playerIconTest {
+  max-height: 100%;
+  margin-right: 0.5em;
+}
+
+.playerIndicator > .playerRow > .playerName {
+  font-family: 'NIXGONM-Vb';
+  font-size: 14pt;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.playerIndicator > .indicatorRow {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  padding-bottom: 0;
+}
+
+.playerIndicator > .indicatorRow > .hpIndicator,
+.playerIndicator > .indicatorRow > .spIndicator,
+.playerIndicator > .indicatorRow > .mpIndicator {
+  width: 25%;
+  height: 1em;
+  border: 1px solid #ffffff;
+  border-radius: 0.25em;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+}
+
+.playerIndicator > .indicatorRow > .mpIndicator {
+  margin-right: 0;
+}
+
+.playerIndicator > .indicatorRow > .hpIndicator > .colorFiller {
+  background-color: #cc0000;
+}
+
+.playerIndicator > .indicatorRow > .spIndicator > .colorFiller {
+  background-color: #ffbe00;
+}
+
+.playerIndicator > .indicatorRow > .mpIndicator > .colorFiller {
+  background-color: #1155cc;
+}
+
+.playerIndicator > .indicatorRow > .hpIndicator > .colorFiller.additional {
+  background-color: #a0a0a0;
+}
+.playerIndicator > .indicatorRow > .mpIndicator > .colorFiller.additional {
+  background-color: #9900ff;
+}
+
+.playerIndicator > .indicatorRow > .hpIndicator > div:last-child,
+.playerIndicator > .indicatorRow > .spIndicator > div:last-child,
+.playerIndicator > .indicatorRow > .mpIndicator > div:last-child {
+  margin-right: auto;
+}
+
+.playerIndicator > .indicatorRow > .hpIndicator > .textOverlay,
+.playerIndicator > .indicatorRow > .spIndicator > .textOverlay,
+.playerIndicator > .indicatorRow > .mpIndicator > .textOverlay {
+  position: absolute;
+  margin: auto;
+  font-size: 6pt;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

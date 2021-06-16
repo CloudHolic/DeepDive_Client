@@ -1,0 +1,40 @@
+.chatRoom {
+  background-color: #212121;
+  height: 30%;
+  margin-top: auto;
+}
+
+.chatMessageContainer {
+  height: 50%;
+  flex-grow: 1;
+  flex-basis: 0;
+  overflow: scroll;
+}
+
+.chatWriter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.chatWriter > :global(.p-inputtext) {
+  flex-grow: 1;
+}
+
+.chatMessage {
+  color: #e0e0e0;
+}
+
+.chatMessage > .timeIndicator {
+  color: #616161;
+}
+
+.chatMessage > .nameIndicator {
+  color: #53a4f3 !important;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.chatMessage > .message {
+  margin-left: 0.5rem;
+}
